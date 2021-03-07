@@ -1,0 +1,268 @@
+$primary: #f2b4b4;
+$secondary: #757575;
+$success: #abbfa3;
+$info: #7579e7;
+$white: #fff;
+
+/*NAVBAR*/
+.navbar {
+  background-color: #fff;
+  .nav-item {
+    font-size: 1.2rem;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+}
+.dropdown-menu {
+  .form-control {
+    width: 200px;
+  }
+
+  button {
+    color: $white;
+    background-color: $success;
+  }
+
+  .form-group a {
+    color: $secondary;
+    text-decoration: none;
+  }
+}
+
+/*SHOWCASE*/
+#showcase {
+  position: relative;
+  .carousel-item {
+    height: 100vh;
+    background-size: cover;
+
+    .carousel-caption {
+      font-family: "Architects Daughter", cursive;
+      color: $info;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+      width: 100rem;
+
+      h2 {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+/*BOXES*/
+
+#boxes {
+  .card {
+    color: $white;
+
+    p {
+      font-size: 1.8rem;
+      line-height: 1;
+    }
+
+    i {
+      color: $white;
+      font-size: 2.5rem;
+      margin-bottom: 1.3rem;
+    }
+
+    .card-body {
+      border: 1px solid $white;
+    }
+  }
+  .card1 {
+    background-image: linear-gradient(#abbfa3dd, #b6d7a9d9),
+      url("../img/box1.jpg");
+    background-size: cover;
+  }
+
+  .card2 {
+    background-image: linear-gradient(#7579e7, #c88ce6d9),
+      url("../img/box2.jpg");
+    background-size: cover;
+  }
+
+  .card3 {
+    background-image: linear-gradient(#f2b4b4e3, #f2b4b4e3),
+      url("../img/box3.jpg");
+    background-size: cover;
+  }
+}
+
+/*ABOUT*/
+
+#about {
+  font-family: "Architects Daughter", cursive;
+
+  h1 {
+    font-size: 4rem;
+    color: $info;
+  }
+
+  p {
+    color: $secondary;
+    font-size: 2rem;
+  }
+}
+
+/* ACCORDION*/
+#accordion {
+  color: $secondary;
+
+  .card-header {
+    color: $info;
+  }
+}
+
+/*AUTHORS*/
+
+#authors {
+  h1 {
+    font-size: 4rem;
+    color: $info;
+    font-family: "Architects Daughter", cursive;
+  }
+
+  .lead {
+    color: $secondary;
+    font-family: "Architects Daughter", cursive;
+    font-size: 2rem;
+  }
+  img {
+    margin-top: -50px;
+  }
+  .card {
+    color: $secondary;
+
+    h3 {
+      color: $info;
+    }
+  }
+
+  .card:hover {
+    background-color: $info;
+    color: #fff;
+
+    .fab {
+      color: $white;
+    }
+
+    h3 {
+      color: $white;
+    }
+  }
+
+  .fab {
+    color: $info;
+  }
+}
+
+/*CONTACT*/
+
+#contact {
+  color: $secondary;
+  .col-lg-9 {
+    h3 {
+      font-family: "Architects Daughter", cursive;
+      color: $info;
+      font-size: 3rem;
+    }
+
+    p {
+      font-family: "Architects Daughter", cursive;
+    }
+  }
+
+  form {
+    i {
+      color: $info;
+    }
+
+    .input-group-text {
+      background-color: $white;
+    }
+  }
+
+  .btn {
+    background-color: $info;
+    color: $white;
+  }
+
+  .btn:hover {
+    background-color: $white;
+    color: $info;
+  }
+
+  .img-fluid {
+    margin-top: 5rem;
+  }
+}
+
+/*FOOTER*/
+
+.main-footer {
+  margin-top: 10rem;
+  background-color: $info;
+  opacity: 0.9;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+
+  .mb-resp2 {
+    margin-bottom: 4rem;
+  }
+
+  #about {
+    h1 {
+      font-size: 3rem;
+    }
+    .lead {
+      font-size: 1.5rem;
+    }
+  }
+
+  #authors {
+    h1 {
+      font-size: 3rem;
+    }
+    .lead {
+      font-size: 1.5rem;
+    }
+    img {
+      margin-top: 0;
+    }
+  }
+
+  #contact {
+    .col-lg-9 {
+      text-align: center;
+    }
+  }
+
+  .main-footer {
+    background-color: $white;
+    border-top: 1px solid $info;
+    margin-top: 4rem;
+    p {
+      color: $info;
+      font-size: 0.8rem;
+    }
+  }
+}

@@ -1,0 +1,160 @@
+/*NAVBAR*/
+.navbar {
+  background-color: #fff; }
+  .navbar .nav-item {
+    font-size: 1.2rem; }
+  .navbar .navbar-toggler:focus {
+    outline: none; }
+
+.dropdown-menu .form-control {
+  width: 200px; }
+.dropdown-menu button {
+  color: #fff;
+  background-color: #abbfa3; }
+.dropdown-menu .form-group a {
+  color: #757575;
+  text-decoration: none; }
+
+/*SHOWCASE*/
+#showcase {
+  position: relative; }
+  #showcase .carousel-item {
+    height: 100vh;
+    background-size: cover; }
+    #showcase .carousel-item .carousel-caption {
+      font-family: "Architects Daughter", cursive;
+      color: #7579e7;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+      width: 100rem; }
+      #showcase .carousel-item .carousel-caption h2 {
+        font-size: 4rem; }
+      #showcase .carousel-item .carousel-caption p {
+        font-size: 2rem; }
+
+/*BOXES*/
+#boxes .card {
+  color: #fff; }
+  #boxes .card p {
+    font-size: 1.8rem;
+    line-height: 1; }
+  #boxes .card i {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1.3rem; }
+  #boxes .card .card-body {
+    border: 1px solid #fff; }
+#boxes .card1 {
+  background-image: linear-gradient(#abbfa3dd, #b6d7a9d9), url("../img/box1.jpg");
+  background-size: cover; }
+#boxes .card2 {
+  background-image: linear-gradient(#7579e7, #c88ce6d9), url("../img/box2.jpg");
+  background-size: cover; }
+#boxes .card3 {
+  background-image: linear-gradient(#f2b4b4e3, #f2b4b4e3), url("../img/box3.jpg");
+  background-size: cover; }
+
+/*ABOUT*/
+#about {
+  font-family: "Architects Daughter", cursive; }
+  #about h1 {
+    font-size: 4rem;
+    color: #7579e7; }
+  #about p {
+    color: #757575;
+    font-size: 2rem; }
+
+/* ACCORDION*/
+#accordion {
+  color: #757575; }
+  #accordion .card-header {
+    color: #7579e7; }
+
+/*AUTHORS*/
+#authors h1 {
+  font-size: 4rem;
+  color: #7579e7;
+  font-family: "Architects Daughter", cursive; }
+#authors .lead {
+  color: #757575;
+  font-family: "Architects Daughter", cursive;
+  font-size: 2rem; }
+#authors img {
+  margin-top: -50px; }
+#authors .card {
+  color: #757575; }
+  #authors .card h3 {
+    color: #7579e7; }
+#authors .card:hover {
+  background-color: #7579e7;
+  color: #fff; }
+  #authors .card:hover .fab {
+    color: #fff; }
+  #authors .card:hover h3 {
+    color: #fff; }
+#authors .fab {
+  color: #7579e7; }
+
+/*CONTACT*/
+#contact {
+  color: #757575; }
+  #contact .col-lg-9 h3 {
+    font-family: "Architects Daughter", cursive;
+    color: #7579e7;
+    font-size: 3rem; }
+  #contact .col-lg-9 p {
+    font-family: "Architects Daughter", cursive; }
+  #contact form i {
+    color: #7579e7; }
+  #contact form .input-group-text {
+    background-color: #fff; }
+  #contact .btn {
+    background-color: #7579e7;
+    color: #fff; }
+  #contact .btn:hover {
+    background-color: #fff;
+    color: #7579e7; }
+  #contact .img-fluid {
+    margin-top: 5rem; }
+
+/*FOOTER*/
+.main-footer {
+  margin-top: 10rem;
+  background-color: #7579e7;
+  opacity: 0.9; }
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+
+  .mb-resp {
+    margin-bottom: 1rem; }
+
+  .mb-resp2 {
+    margin-bottom: 4rem; }
+
+  #about h1 {
+    font-size: 3rem; }
+  #about .lead {
+    font-size: 1.5rem; }
+
+  #authors h1 {
+    font-size: 3rem; }
+  #authors .lead {
+    font-size: 1.5rem; }
+  #authors img {
+    margin-top: 0; }
+
+  #contact .col-lg-9 {
+    text-align: center; }
+
+  .main-footer {
+    background-color: #fff;
+    border-top: 1px solid #7579e7;
+    margin-top: 4rem; }
+    .main-footer p {
+      color: #7579e7;
+      font-size: 0.8rem; } }
